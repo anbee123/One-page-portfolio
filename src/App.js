@@ -11,7 +11,7 @@ function App() {
   return (
     <div>
       <Header data={ResumeData.basic_info}/>
-      <AboutSection />
+      <AboutSection data={ResumeData.about} />
       <ProjectsSection />
       <SkillsSection />
       <ExperienceSection />
