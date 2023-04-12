@@ -1,6 +1,7 @@
 header {
 	position: relative;
-	height: 450px;
+	height: fit-content;
+  min-height: 550px;
 	width: 100%;
 	background-color: #f3a0e8;
 	background-size: cover;
@@ -10,8 +11,32 @@ header {
 	padding-bottom: 0;
 }
 
+header h1 {
+	font-size: 300%;
+	text-align: center;
+	font-weight: 600 !important;
+	color: #353239;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	margin: 0 auto 18px auto;
+	width: 100%;
+}
+
+.header-icon {
+	height: 150px;
+	width: 150px;
+}
+
 .flexAlign {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.title-container {
+	min-height: 50px;
+}
+
+.title-styles {
+	font-family: 'Raleway', sans-serif;
+	font-size: 200%;
 }

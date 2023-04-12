@@ -1,11 +1,10 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import Switch from 'react-switch';
 import Typical from 'react-typical';
 
 const Header = ({ data }) => {
   const [checked, setChecked] = useState(false)
   const titles = data.titles.map(t => [1500, t.toUpperCase()]).flat()
-  console.log('111', { titles })
   const onThemeSwitchChange = (val) => {
     setChecked(val)
     setTheme()
@@ -16,32 +15,64 @@ const Header = ({ data }) => {
     const newTheme = body.getAttribute(dataThemeAtrribute) === 'dark' ? 'light' : 'dark'
     body.setAttribute(dataThemeAtrribute, newTheme)
   }
+  const HeaderTitleTypeAnimation = React.memo(() => {
+    return <Typical className="title-styles" steps={titles} loop={50} />
+  }, (props, prevProp) => true);
 
   return (
     <header>
-      This is Header
       <div className='row flexAlign'>
         <div>
-          <span></span>
+          <span
+            className="iconify header-icon"
+            data-icon="la:laptop-code"
+            data-inline="false"
+          ></span>
           <br />
           <h1 className='mb-0'>
             <Typical steps={[data.name]} wrapper='p' />
           </h1>
           <div className='title-container'>
-            <Typical className='title-styles' steps={titles} loop={50} />
+            <HeaderTitleTypeAnimation />
           </div>
 
           <Switch
+            id='icon-switch'
+            className='react-switch mx-auto'
             checked={checked}
             onChange={onThemeSwitchChange}
-            offColor='#ff69b4'
-            onColor='#353535'
-            className='react-switch mx-auto'
+            offColor='#353535'
+            onColor='#ff69b4'
             width={90}
             height={40}
-            uncheckedIcon={<div></div>}
-            checkedIcon={<div></div>}
-            id='icon-switch'
+            uncheckedIcon={
+              <span
+                className="iconify"
+                data-icon="twemoji:first-quarter-moon-face"
+                data-inline="false"
+                style={{
+                  display: 'block',
+                  height: '100%',
+                  fontSize: 25,
+                  textAlign: 'end',
+                  marginLeft: '20px',
+                }}
+              ></span>
+            }
+            checkedIcon={
+              <span
+                className="iconify"
+                data-icon="noto-v1:sun-with-face"
+                data-inline="false"
+                style={{
+                  display: 'block',
+                  height: '100%',
+                  fontSize: 25,
+                  textAlign: 'end',
+                  marginLeft: '10px',
+                }}
+              ></span>
+            }
           />
         </div>
       </div>
