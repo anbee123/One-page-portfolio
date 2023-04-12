@@ -8,6 +8,9 @@ const Header = () => {
   return (
     <header>
       This is Header
+      <div className='container flexAlign'>
+        this is header content
+      </div>
 
     </header>
   )
