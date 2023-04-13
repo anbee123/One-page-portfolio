@@ -12,7 +12,7 @@ function App() {
     <div>
       <Header data={ResumeData.basic_info}/>
       <AboutSection data={ResumeData.about} />
-      <ProjectsSection />
+      <ProjectsSection data={ResumeData.projects} />
       <SkillsSection />
       <ExperienceSection />
     </div>

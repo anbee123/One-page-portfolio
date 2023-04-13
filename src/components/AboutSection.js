@@ -1,15 +1,15 @@
-import { useState } from 'react';
 import MyImage from '../assets/images/my-image.jpg';
 import { Icon } from '@iconify/react';
 import ReactIcon from '@iconify/icons-logos/react';
-import AngularIcon from '@iconify/icons-logos/angular-icon';
+import NodeIcon from '@iconify/icons-logos/nodejs-icon';
+import MongoIcon from '@iconify/icons-logos/mongodb-icon';
 
 const AboutSection = ({ data }) => {
   return (
     <section id="about">
       <div className="col-md-12">
-        <h1 style={{ color: 'black' }}>
-          <span>{data.title}</span>
+        <h1 className='section-title' style={{ color: 'black' }}>
+          <span>{data.sectionTitle}</span>
         </h1>
         <div className="row center mx-auto mb-5">
           <div className="col-md-4 mb-1 center">
@@ -21,12 +21,16 @@ const AboutSection = ({ data }) => {
                   alt="Avatar placeholder"
                 />
                 <Icon
-                  icon={AngularIcon}
-                  style={{ fontSize: '400%', margin: '9% 5% 0 5%' }}
+                  icon={ReactIcon}
+                  style={{ fontSize: '250%', width: '36px', margin: '9% 5% 0 5%' }}
                 />
                 <Icon
-                  icon={ReactIcon}
-                  style={{ fontSize: '400%', margin: '9% 5% 0 5%' }}
+                  icon={NodeIcon}
+                  style={{ fontSize: '250%', width: '36px', margin: '9% 5% 0 5%' }}
+                />
+                <Icon
+                  icon={MongoIcon}
+                  style={{ fontSize: '250%', width: '36px', margin: '9% 5% 0 5%' }}
                 />
               </span>
             </div>
