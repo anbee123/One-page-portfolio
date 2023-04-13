@@ -230,9 +230,21 @@ header {
     margin-top: 18%;
     text-align: center;
   }
+
   .vertical-timeline-element-date {
     padding: 0 !important;
     margin: 0 1rem !important;
+  }
+
+  .experience-badge {
+    font-size: 11px !important;
+    text-align: left !important;
+    padding: 5px 8px 5px 8px !important;
+    vertical-align: baseline;
+    background-color: #ffbad7;
+    color: black;
+    font-weight: lighter !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
 
   @media (min-width: 1170px) {

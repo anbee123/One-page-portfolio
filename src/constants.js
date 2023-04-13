@@ -189,7 +189,7 @@ export const ResumeData = {
       {
         company: "General Assembly",
         title: "Fullstack Developer",
-        years: "10.2022 - ",
+        years: "Oct.2022 - Feb.2023",
         mainTech: [
           "Fullstack Development"
         ],

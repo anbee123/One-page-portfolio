@@ -32,7 +32,7 @@ const ExperienceSection = ({ data }) => {
                   color: '#fff',
                   textAlign: 'center',
                 }}
-                icon={<i className="fab fa-angular experience-icon"></i>}
+                icon={<i className="fab fa-react experience-icon"></i>}
               >
                 <div style={{ textAlign: 'left', marginBottom: '4px' }}>
                   {mainTech.map((tech, index) => (
