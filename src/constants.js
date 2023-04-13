@@ -18,13 +18,13 @@ export const ResumeData = {
       startDate: "2020",
       description: "React portfolio template that can be used by for e.g. other GitHub users. Porfolio includes separated sections(About, Projects, Skills, Experience). It also has multilingual support and light/dark theme setting.",
       images: [
-        "images/portfolio/header.png",
-        "images/portfolio/about.png",
-        "images/portfolio/projects.png",
-        "images/portfolio/skills.png",
-        "images/portfolio/experience.png"
+        "images/portfolio/image1.png",
+        "images/portfolio/image2.png",
+        "images/portfolio/image3.png",
+        "images/portfolio/image4.png",
+        "images/portfolio/image5.png"
       ],
-      url: "https://github.com/Dorota1997/react-frontend-dev-portfolio",
+      url: "https://github.com/anbee123/One-page-portfolio",
       technologies: [
         {
           class: "devicon-react-original",
@@ -44,13 +44,13 @@ export const ResumeData = {
       startDate: "2020",
       description: "React portfolio template that can be used by for e.g. other GitHub users. Porfolio includes separated sections(About, Projects, Skills, Experience). It also has multilingual support and light/dark theme setting.",
       images: [
-        "images/portfolio/header.png",
-        "images/portfolio/about.png",
-        "images/portfolio/projects.png",
-        "images/portfolio/skills.png",
-        "images/portfolio/experience.png"
+        "images/portfolio/image1.png",
+        "images/portfolio/image2.png",
+        "images/portfolio/image3.png",
+        "images/portfolio/image4.png",
+        "images/portfolio/image5.png"
       ],
-      url: "https://github.com/Dorota1997/react-frontend-dev-portfolio",
+      url: "https://github.com/anbee123/One-page-portfolio",
       technologies: [
         {
           class: "devicon-react-original",
@@ -70,13 +70,13 @@ export const ResumeData = {
       startDate: "2020",
       description: "React portfolio template that can be used by for e.g. other GitHub users. Porfolio includes separated sections(About, Projects, Skills, Experience). It also has multilingual support and light/dark theme setting.",
       images: [
-        "images/portfolio/header.png",
-        "images/portfolio/about.png",
-        "images/portfolio/projects.png",
-        "images/portfolio/skills.png",
-        "images/portfolio/experience.png"
+        "images/portfolio/image1.png",
+        "images/portfolio/image2.png",
+        "images/portfolio/image3.png",
+        "images/portfolio/image4.png",
+        "images/portfolio/image5.png"
       ],
-      url: "https://github.com/Dorota1997/react-frontend-dev-portfolio",
+      url: "https://github.com/anbee123/One-page-portfolio",
       technologies: [
         {
           class: "devicon-react-original",
@@ -96,13 +96,13 @@ export const ResumeData = {
       startDate: "2020",
       description: "React portfolio template that can be used by for e.g. other GitHub users. Porfolio includes separated sections(About, Projects, Skills, Experience). It also has multilingual support and light/dark theme setting.",
       images: [
-        "images/portfolio/header.png",
-        "images/portfolio/about.png",
-        "images/portfolio/projects.png",
-        "images/portfolio/skills.png",
-        "images/portfolio/experience.png"
+        "images/portfolio/image1.png",
+        "images/portfolio/image2.png",
+        "images/portfolio/image3.png",
+        "images/portfolio/image4.png",
+        "images/portfolio/image5.png"
       ],
-      url: "https://github.com/Dorota1997/react-frontend-dev-portfolio",
+      url: "https://github.com/anbee123/One-page-portfolio",
       technologies: [
         {
           class: "devicon-react-original",
@@ -122,13 +122,13 @@ export const ResumeData = {
       startDate: "2020",
       description: "React portfolio template that can be used by for e.g. other GitHub users. Porfolio includes separated sections(About, Projects, Skills, Experience). It also has multilingual support and light/dark theme setting.",
       images: [
-        "images/portfolio/header.png",
-        "images/portfolio/about.png",
-        "images/portfolio/projects.png",
-        "images/portfolio/skills.png",
-        "images/portfolio/experience.png"
+        "images/portfolio/image1.png",
+        "images/portfolio/image2.png",
+        "images/portfolio/image3.png",
+        "images/portfolio/image4.png",
+        "images/portfolio/image5.png"
       ],
-      url: "https://github.com/Dorota1997/react-frontend-dev-portfolio",
+      url: "https://github.com/anbee123/One-page-portfolio",
       technologies: [
         {
           class: "devicon-react-original",

@@ -1,8 +1,7 @@
-
 html {
-	-webkit-font-smoothing: antialiased;
-	margin: 0;
-	padding: 0;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -90,6 +89,10 @@ header {
     transition: all .20s linear;
     z-index: 0;
     position: relative;
+  }
+
+  .font-trebuchet {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
 
   .center {
@@ -295,4 +298,52 @@ header {
     margin-top: 50px;
     font-size: 30px;
   }
+}
+
+// Project Detail Modal
+.project-modal {
+
+  .modal-close {
+    text-align: right;
+    padding: 10px 15px 10px 15px;
+    cursor: pointer;
+  }
+
+  .close-icon {
+    color: black;
+    font-weight: lighter !important;
+  }
+
+  .slider-image {
+    border: 5px solid #e0387e;
+  }
+
+  .slider-tab {
+    background-color: #e0387e;
+    height: 25px;
+  }
+
+  .slider-iconfiy {
+    margin-top: 10px;
+  }
+
+  .modal-description {
+    text-align: justify;
+    padding: 5px 5px 0 5px;
+    margin-bottom: 20px;
+    font-size: 12px;
+  }
+
+  .awssld__next {
+    outline: none !important;
+  }
+
+  .awssld__prev {
+    outline: none !important;
+  }
+
+  .loader-bar-color {
+    color: black !important;
+  }
+
 }

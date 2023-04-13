@@ -1,11 +1,15 @@
 import { useState } from "react";
+import ProjectDetailsModal from "./ProjectDetailsModal";
 
 const ProjectsSection = ({ data }) => {
-  const [detailData, setDetailData] = useState()
-  console.log({detailData})
+  const [project, setProject] = useState()
+  console.log({project})
 
-  const handleShowModal = (details) => {
-    setDetailData(details)
+  const handleShowModal = (val) => {
+    setProject(val)
+  }
+  const onCloseModal = () => {
+    setProject()
   }
   const { projects, sectionTitle } = data
   return (
@@ -44,11 +48,11 @@ const ProjectsSection = ({ data }) => {
             }
           </div>
         </div>
-        {/* <ProjectDetailsModal
-          show={data.detailsModalShow}
-          onHide={detailsModalClose}
-          data={data.deps}
-        /> */}
+        <ProjectDetailsModal
+          show={!!project}
+          onClose={onCloseModal}
+          project={project ?? {}}
+        />
       </div>
     </section>
   )
