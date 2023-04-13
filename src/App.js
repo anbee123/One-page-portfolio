@@ -14,7 +14,7 @@ function App() {
       <AboutSection data={ResumeData.about} />
       <ProjectsSection data={ResumeData.projects} />
       <SkillsSection data={ResumeData.skills} />
-      <ExperienceSection />
+      <ExperienceSection data={ResumeData.experiences} />
     </div>
   );
 }

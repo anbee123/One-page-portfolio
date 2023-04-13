@@ -6,7 +6,6 @@ const ProjectsSection = ({ data }) => {
   const handleShowModal = (details) => {
     setDetailData(details)
   }
-  console.log('projects', {data})
   const { projects, sectionTitle } = data
   return (
     <section id="portfolio">
@@ -16,10 +15,10 @@ const ProjectsSection = ({ data }) => {
         </h1>
         <div className="col-md-12 mx-auto">
           <div className="row mx-auto">
-            {projects.map(project => (
+            {projects.map((project, index) => (
               <div
+                key={index}
                 className="col-sm-12 col-md-6 col-lg-4"
-                key={project.title}
                 style={{ cursor: 'pointer' }}
               >
                 <span className="portfolio-item d-block">

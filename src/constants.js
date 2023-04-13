@@ -181,5 +181,51 @@ export const ResumeData = {
         }
       ]
     }
+  },
+
+  experiences: {
+    sectionTitle: 'Experiences',
+    experiences: [
+      {
+        company: "General Assembly",
+        title: "Fullstack Developer",
+        years: "10.2022 - ",
+        mainTech: [
+          "Fullstack Development"
+        ],
+        technologies: [
+          "JavaScript",
+          "TypeScript",
+          "Node.js",
+          "React.js",
+          "Next.js",
+          "REST API",
+          "SCSS",
+          "JWT",
+          "Material-UI",
+          "Tailwindcss"
+        ]
+      },
+      {
+        company: "General Assembly",
+        title: "Fullstack Developer",
+        years: "10.2022 - ",
+        mainTech: [
+          "Fullstack Development"
+        ],
+        technologies: [
+          "JavaScript",
+          "TypeScript",
+          "Node.js",
+          "React.js",
+          "Next.js",
+          "REST API",
+          "SCSS",
+          "JWT",
+          "Material-UI",
+          "Tailwindcss"
+        ]
+      },
+    ]
   }
 }
