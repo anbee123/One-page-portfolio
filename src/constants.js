@@ -39,7 +39,7 @@ export const ResumeData = {
           name: "Sass"
         }
       ]
-    },{
+    }, {
       title: "React Portfolio",
       startDate: "2020",
       description: "React portfolio template that can be used by for e.g. other GitHub users. Porfolio includes separated sections(About, Projects, Skills, Experience). It also has multilingual support and light/dark theme setting.",
@@ -65,7 +65,7 @@ export const ResumeData = {
           name: "Sass"
         }
       ]
-    },{
+    }, {
       title: "React Portfolio",
       startDate: "2020",
       description: "React portfolio template that can be used by for e.g. other GitHub users. Porfolio includes separated sections(About, Projects, Skills, Experience). It also has multilingual support and light/dark theme setting.",
@@ -91,7 +91,7 @@ export const ResumeData = {
           name: "Sass"
         }
       ]
-    },{
+    }, {
       title: "React Portfolio",
       startDate: "2020",
       description: "React portfolio template that can be used by for e.g. other GitHub users. Porfolio includes separated sections(About, Projects, Skills, Experience). It also has multilingual support and light/dark theme setting.",
@@ -117,7 +117,7 @@ export const ResumeData = {
           name: "Sass"
         }
       ]
-    },{
+    }, {
       title: "React Portfolio",
       startDate: "2020",
       description: "React portfolio template that can be used by for e.g. other GitHub users. Porfolio includes separated sections(About, Projects, Skills, Experience). It also has multilingual support and light/dark theme setting.",
@@ -141,9 +141,45 @@ export const ResumeData = {
         {
           class: "devicon-sass-original",
           name: "Sass"
+        }
+      ]
+    }]
+  },
+
+  skills: {
+    sectionTitle: 'Skills',
+    skills: {
+      icons: [
+        {
+          name: "HTML 5",
+          class: "devicon-html5-plain",
+          level: "95"
+        }, {
+          name: "CSS 3",
+          class: "devicon-css3-plain",
+          level: "95"
+        }, {
+          name: "TypeScript",
+          class: "devicon-typescript-plain",
+          level: "90"
+        }, {
+          name: "JavaScript",
+          class: "devicon-javascript-plain",
+          level: "90"
+        }, {
+          name: "Sass",
+          class: "devicon-sass-original",
+          level: "90"
+        }, {
+          name: "Bootstrap",
+          class: "devicon-bootstrap-plain",
+          level: "80"
+        }, {
+          name: "MySql",
+          class: "devicon-mysql-plain",
+          level: "80"
         }
       ]
     }
-    ]
-  },
+  }
 }

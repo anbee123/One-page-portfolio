@@ -50,8 +50,8 @@ header {
   text-transform: uppercase;
   letter-spacing: 3px;
   text-align: center;
-
   font-size: 200%;
+  margin-bottom: 2rem;
 }
 
 
@@ -69,7 +69,7 @@ header {
   .polaroid span {
     background: #ffffff;
     display: inline-block;
-    margin: 55px 75px 30px;
+    margin: 30px 75px 30px;
     padding: 15px 15px 30px;
     text-align: center;
     text-decoration: none;
@@ -133,7 +133,7 @@ header {
     display: block;
     width: 100%;
   }
-  
+
   .foto div {
     background: #ffffff;
     display: inline-block;
@@ -150,7 +150,7 @@ header {
     z-index: 0;
     position: relative;
   }
-  
+
   .foto div:after {
     color: #333;
     font-size: 25px;
@@ -158,7 +158,7 @@ header {
     position: relative;
     top: 15px;
   }
-  
+
   .foto div:hover {
     -webkit-transform: scale(1.01);
     -moz-transform: scale(1.01);
@@ -187,5 +187,31 @@ header {
     background-color: #f3f3f3;
     color: black;
   }
-      
+
+}
+
+// Skills Section
+
+#skills {
+  background: #1F1F1F;
+  min-height: 200px;
+  width: 100%;
+  overflow: hidden;
+  padding-bottom: 10%;
+
+  .skill-icon {
+    font-size: 130%;
+    color: white;
+    text-align: center;
+    position: relative;
+  }
+
+  .skills-tile {
+    background-color: transparentize(#F8F5F4, 0.95);
+    padding: 10px 10px 5px 10px;
+    width: 90px;
+    margin: 5px 0 5px 0;
+    border-radius: 8px;
+  }
+
 }

@@ -14,7 +14,7 @@ const ProjectsSection = ({ data }) => {
         <h1 className="section-title">
           <span>{sectionTitle}</span>
         </h1>
-        <div className="col-md-12 mx-auto mt-4">
+        <div className="col-md-12 mx-auto">
           <div className="row mx-auto">
             {projects.map(project => (
               <div
