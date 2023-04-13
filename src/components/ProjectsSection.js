@@ -2,6 +2,7 @@ import { useState } from "react";
 
 const ProjectsSection = ({ data }) => {
   const [detailData, setDetailData] = useState()
+  console.log({detailData})
 
   const handleShowModal = (details) => {
     setDetailData(details)

@@ -1,3 +1,11 @@
+
+html {
+	-webkit-font-smoothing: antialiased;
+	margin: 0;
+	padding: 0;
+}
+
+
 header {
   position: relative;
   display: flex;
@@ -88,6 +96,10 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .wave {
+    font-size: 130%;
   }
 
 }
@@ -253,5 +265,34 @@ header {
       margin-top: 25%;
       text-align: center;
     }
+  }
+}
+
+
+// Footer Section
+
+#footer {
+  background: #1F1F1F;
+  min-height: 100px;
+  width: 100%;
+  overflow: hidden;
+  font-size: 14px;
+  color: white;
+  position: relative;
+  text-align: center;
+
+  a,
+  a:visited {
+    color: #fff;
+  }
+
+  a:hover,
+  footer a:focus {
+    color: #fff;
+  }
+
+  .social-links {
+    margin-top: 50px;
+    font-size: 30px;
   }
 }

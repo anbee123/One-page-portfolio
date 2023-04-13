@@ -4,6 +4,7 @@ import AboutSection from './components/AboutSection';
 import ProjectsSection from './components/ProjectsSection';
 import SkillsSection from './components/SkillsSection';
 import ExperienceSection from './components/ExperienceSection';
+import Footer from './components/Footer'
 
 import { ResumeData } from './constants';
 
@@ -15,6 +16,7 @@ function App() {
       <ProjectsSection data={ResumeData.projects} />
       <SkillsSection data={ResumeData.skills} />
       <ExperienceSection data={ResumeData.experiences} />
+      <Footer data={ResumeData.socials} />
     </div>
   );
 }

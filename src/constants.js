@@ -227,5 +227,26 @@ export const ResumeData = {
         ]
       },
     ]
+  },
+
+  socials: {
+    auth: 'Anna Bui',
+    networks: [
+      {
+        name: "github",
+        url: "https://github.com/anbee123",
+        icon: "fab fa-github"
+      },
+      {
+        name: "instagram",
+        url: "https://www.instagram.com/",
+        icon: "fab fa-instagram"
+      },
+      {
+        name: "linkedin",
+        url: "https://www.linkedin.com/",
+        icon: "fab fa-linkedin"
+      }
+    ],
   }
 }

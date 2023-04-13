@@ -1,4 +1,3 @@
-import { useState } from "react"
 
 const SkillsSection = ({ data }) => {
   const { skills, sectionTitle } = data
