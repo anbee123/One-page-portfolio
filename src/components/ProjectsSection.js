@@ -3,7 +3,6 @@ import ProjectDetailsModal from "./ProjectDetailsModal";
 
 const ProjectsSection = ({ data }) => {
   const [project, setProject] = useState()
-  console.log({project})
 
   const handleShowModal = (val) => {
     setProject(val)

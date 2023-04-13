@@ -4,9 +4,7 @@ import AwesomeSliderStyles from '../scss/light-slider.scss';
 
 const ProjectDetailsModal = ({ show, project, onClose }) => {
 
-  console.log({ show, project, onClose })
-  const { title, startDate, description, images, url, technologies } = project ?? {}
-  // console.log({ title, startDate, description, images, url, technologies } )
+  const { title, description, images, url, technologies } = project ?? {}
 
   return (
     <Modal
