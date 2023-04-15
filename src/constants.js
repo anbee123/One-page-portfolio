@@ -3,12 +3,12 @@ export const PRIMARY = 'primary'
 export const ResumeData = {
   basic_info: {
     name: 'Anna Bui',
-    titles: ['Front-end Developer', 'Back-end Developer', 'Mobile App Developer', 'Manager'],
+    titles: ['Front-end Developer', 'Back-end Developer', 'Full-stack Developer', 'Manager'],
   },
   about: {
     sectionTitle: 'About me',
     description_header: 'Hi',
-    description_content: 'I am responsible for developing apps and websites. For back-end, I mainly use MERN stack. Besides gaining further experience in Next.js and Vue.js, I am also working on extending my front-end skills in Django.',
+    description_content: 'I am a passionate full-stack software engineer with expertise in front-end and back-end technologies. I thrive on creating innovative solutions to complex problems, crafting clean and efficient code. With proficiency in multiple programming languages, frameworks, and databases, I develop scalable applications that deliver exceptional user experiences. Stay updated with the latest advancements in technology, I am constantly improving my coding skills. Coding is not just my profession, but my true passion that drives me to create elegant solutions with a positive impact. Bottom line, I LOVE CODING AS MUCH AS I LOVE CHOCOLATE :)',
   },
 
   projects: {
@@ -35,14 +35,14 @@ export const ResumeData = {
           name: "JavaScript"
         },
         {
-          class: "devicon-sass-original",
-          name: "Sass"
+          class: "devicon-materialui-plain",
+          name: "MaterialUI"
         }
       ]
     }, {
       title: "Chat App",
       startDate: "2022",
-      description: "React portfolio template that can be used by for e.g. other GitHub users. Porfolio includes separated sections(About, Projects, Skills, Experience). It also has multilingual support and light/dark theme setting.",
+      description: "Welcome to my chat-app project! Designed for seamless messaging experiences, my app allows real-time communication by choosing the different room to chat with your friends and others . Stay connected effortlessly on various platforms and devices for personal or professional communication.",
       images: [
         "images/chatapp/image1.png",
         "images/chatapp/image2.png",
@@ -57,13 +57,25 @@ export const ResumeData = {
           name: "React"
         },
         {
+          class: "devicon-css3-plain",
+          name: "CSS"
+        },
+        {
+          class: "devicon-python-plain",
+          name: "Python"
+        },
+        {
           class: "devicon-javascript-plain",
           name: "JavaScript"
         },
         {
-          class: "devicon-sass-original",
-          name: "Sass"
-        }
+          class: "devicon-postgresql-plain",
+          name: "Postgresql"
+        },
+        {
+          class: "devicon-django-plain",
+          name: "Django"
+        },
       ]
     }, {
       title: "My JAM",
