@@ -14,17 +14,17 @@ export const ResumeData = {
   projects: {
     sectionTitle: 'Projects',
     projects: [{
-      title: "React Portfolio",
-      startDate: "2020",
+      title: "Crypto Tracker",
+      startDate: "2022",
       description: "React portfolio template that can be used by for e.g. other GitHub users. Porfolio includes separated sections(About, Projects, Skills, Experience). It also has multilingual support and light/dark theme setting.",
       images: [
-        "images/portfolio/image1.png",
-        "images/portfolio/image2.png",
-        "images/portfolio/image3.png",
-        "images/portfolio/image4.png",
-        "images/portfolio/image5.png"
+        "images/crypto/image1.png",
+        "images/crypto/image2.png",
+        "images/crypto/image3.png",
+        "images/crypto/image4.png",
+        "images/crypto/image5.png"
       ],
-      url: "https://github.com/anbee123/One-page-portfolio",
+      url: "https://crypto-watchlist-react.netlify.app/",
       technologies: [
         {
           class: "devicon-react-original",
@@ -40,17 +40,17 @@ export const ResumeData = {
         }
       ]
     }, {
-      title: "React Portfolio",
-      startDate: "2020",
+      title: "Chat App",
+      startDate: "2022",
       description: "React portfolio template that can be used by for e.g. other GitHub users. Porfolio includes separated sections(About, Projects, Skills, Experience). It also has multilingual support and light/dark theme setting.",
       images: [
-        "images/portfolio/image1.png",
-        "images/portfolio/image2.png",
-        "images/portfolio/image3.png",
-        "images/portfolio/image4.png",
-        "images/portfolio/image5.png"
+        "images/chatapp/image1.png",
+        "images/chatapp/image2.png",
+        "images/chatapp/image3.png",
+        "images/chatapp/image4.png",
+  
       ],
-      url: "https://github.com/anbee123/One-page-portfolio",
+      url: "https://letschattogether.netlify.app/",
       technologies: [
         {
           class: "devicon-react-original",
@@ -66,17 +66,17 @@ export const ResumeData = {
         }
       ]
     }, {
-      title: "React Portfolio",
-      startDate: "2020",
+      title: "My JAM",
+      startDate: "2022",
       description: "React portfolio template that can be used by for e.g. other GitHub users. Porfolio includes separated sections(About, Projects, Skills, Experience). It also has multilingual support and light/dark theme setting.",
       images: [
-        "images/portfolio/image1.png",
-        "images/portfolio/image2.png",
-        "images/portfolio/image3.png",
-        "images/portfolio/image4.png",
-        "images/portfolio/image5.png"
+        "images/myJam/image3.png",
+        "images/myJam/image1.png",
+        "images/myJam/image2.png",
+        "images/myJam/image4.png",
+  
       ],
-      url: "https://github.com/anbee123/One-page-portfolio",
+      url: "https://welcometomyjam.netlify.app/",
       technologies: [
         {
           class: "devicon-react-original",
@@ -92,17 +92,17 @@ export const ResumeData = {
         }
       ]
     }, {
-      title: "React Portfolio",
-      startDate: "2020",
+      title: "Less Is Green",
+      startDate: "2022",
       description: "React portfolio template that can be used by for e.g. other GitHub users. Porfolio includes separated sections(About, Projects, Skills, Experience). It also has multilingual support and light/dark theme setting.",
       images: [
-        "images/portfolio/image1.png",
-        "images/portfolio/image2.png",
-        "images/portfolio/image3.png",
-        "images/portfolio/image4.png",
-        "images/portfolio/image5.png"
+        "images/green/image2.png",
+        "images/green/image1.png",
+        "images/green/image3.png",
+        "images/green/image4.png",
+       
       ],
-      url: "https://github.com/anbee123/One-page-portfolio",
+      url: "https://less-is-greener.netlify.app/",
       technologies: [
         {
           class: "devicon-react-original",
