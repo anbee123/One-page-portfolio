@@ -3,6 +3,10 @@ import { Icon } from '@iconify/react';
 import ReactIcon from '@iconify/icons-logos/react';
 import NodeIcon from '@iconify/icons-logos/nodejs-icon';
 import MongoIcon from '@iconify/icons-logos/mongodb-icon';
+import PythonIcon from '@iconify/icons-logos/python';
+import cssIcon from '@iconify/icons-logos/css-3';
+import typescriptIcon from '@iconify/icons-logos/typescript-icon';
+
 
 const AboutSection = ({ data }) => {
   return (
@@ -29,7 +33,19 @@ const AboutSection = ({ data }) => {
                   style={{ fontSize: '250%', width: '36px', margin: '9% 5% 0 5%' }}
                 />
                 <Icon
+                  icon={PythonIcon}
+                  style={{ fontSize: '250%', width: '36px', margin: '9% 5% 0 5%' }}
+                />
+                <Icon
                   icon={MongoIcon}
+                  style={{ fontSize: '250%', width: '36px', margin: '9% 5% 0 5%' }}
+                />
+                <Icon
+                  icon={cssIcon}
+                  style={{ fontSize: '250%', width: '36px', margin: '9% 5% 0 5%' }}
+                />
+                <Icon
+                  icon={typescriptIcon}
                   style={{ fontSize: '250%', width: '36px', margin: '9% 5% 0 5%' }}
                 />
               </span>
