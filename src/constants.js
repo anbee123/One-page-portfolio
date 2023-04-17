@@ -24,8 +24,7 @@ export const ResumeData = {
         "images/crypto/image4.png",
         "images/crypto/image5.png"
       ],
-      liveUrl: "https://crypto-watchlist-react.netlify.app/",
-      gitUrl: "https://github.com/anbee123/crypto-watchlist",
+      url: "https://crypto-watchlist-react.netlify.app/",
       technologies: [
         {
           class: "devicon-react-original",
@@ -51,8 +50,7 @@ export const ResumeData = {
         "images/chatapp/image4.png",
   
       ],
-      liveUrl: "https://letschattogether.netlify.app/",
-      gitUrl: "https://github.com/anbee123/chatapp-frontend",
+      url: "https://letschattogether.netlify.app/",
       technologies: [
         {
           class: "devicon-react-original",
@@ -90,8 +88,7 @@ export const ResumeData = {
         "images/myJam/image4.png",
   
       ],
-      liveUrl: "https://welcometomyjam.netlify.app/",
-      gitUrl: "https://github.com/anbee123/myJAM-frontend-",
+      url: "https://welcometomyjam.netlify.app/",
       technologies: [
         {
           class: "devicon-react-original",
@@ -117,8 +114,7 @@ export const ResumeData = {
         "images/green/image4.png",
        
       ],
-      liveUrl: "https://less-is-greener.netlify.app/",
-      gitUrl: "https://github.com/anbee123/Less-is-Greener-frontend",
+      url: "https://less-is-greener.netlify.app/",
       technologies: [
         {
           class: "devicon-react-original",
@@ -144,8 +140,7 @@ export const ResumeData = {
         "images/portfolio/image4.png",
         "images/portfolio/image5.png"
       ],
-      liveUrl: "https://github.com/anbee123/One-page-portfolio",
-      gitUrl: "https://github.com/anbee123/One-page-portfolio",
+      url: "https://github.com/anbee123/One-page-portfolio",
       technologies: [
         {
           class: "devicon-react-original",
