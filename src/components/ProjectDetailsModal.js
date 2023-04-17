@@ -4,7 +4,7 @@ import AwesomeSliderStyles from '../scss/light-slider.scss';
 
 const ProjectDetailsModal = ({ show, project, onClose }) => {
 
-  const { title, description, images, url, technologies } = project ?? {}
+  const { title, description, images, liveUrl, gitUrl, technologies } = project ?? {}
 
   return (
     <Modal
@@ -53,15 +53,28 @@ const ProjectDetailsModal = ({ show, project, onClose }) => {
         <div className='col-md-10 mx-auto'>
           <h3 style={{ padding: '5px 5px 0 5px' }}>
             {title}
-            {url ? (
+            {liveUrl ? (
               <a
-                href={url}
+                href={liveUrl}
                 target='_blank'
                 rel='noopener noreferrer'
                 className='link-href'
               >
                 <i
                   className='fas fa-external-link-alt'
+                  style={{ marginLeft: '10px' }}
+                ></i>
+              </a>
+            ) : null}
+            {gitUrl ? (
+              <a
+                href={gitUrl}
+                target='_blank'
+                rel='noopener noreferrer'
+                className='link-href'
+              >
+                <i
+                  className='fab fa-github'
                   style={{ marginLeft: '10px' }}
                 ></i>
               </a>
