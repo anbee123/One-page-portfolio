@@ -33,7 +33,8 @@ body[data-theme="dark"] {
   }
 
   header {
-    background-color: #494949;
+    // Dark theme color
+    background-image: linear-gradient(to right, #797979 0%, rgb(51, 51, 51) 100%);
 
     h1 {
       color: white;
@@ -58,7 +59,7 @@ body[data-theme="dark"] {
   }
 
   #portfolio {
-    background: #5b5b5b;
+    background-image: linear-gradient(to right, #797979 0%, rgb(51, 51, 51) 100%);
 
     .section-title {
       color: white !important;
@@ -75,7 +76,7 @@ body[data-theme="dark"] {
 
   #experience {
     filter: brightness(80%);
-    background: #5b5b5b;
+    background-image: linear-gradient(to right, #797979 0%, rgb(51, 51, 51) 100%);
 
     .section-title {
       color: white !important;
@@ -105,7 +106,7 @@ body[data-theme="dark"] {
     }
   }
 
-  .modal-inside .modal-content {
+  .modal-content {
     background: #5b5b5b;
     color: white;
   }
