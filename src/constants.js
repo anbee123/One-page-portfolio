@@ -16,7 +16,7 @@ export const ResumeData = {
     projects: [{
       title: "Crypto Tracker",
       startDate: "2022",
-      description: "React portfolio template that can be used by for e.g. other GitHub users. Porfolio includes separated sections(About, Projects, Skills, Experience). It also has multilingual support and light/dark theme setting.",
+      description: "Crypto Tracker is a sleek and user-friendly web app that provides real-time tracking and analysis of popular cryptocurrencies. With live price data, historical charts, Crypto Tracker is a reliable tool for crypto enthusiasts to monitor and manage their investments effectively.",
       images: [
         "images/crypto/image1.png",
         "images/crypto/image2.png",
@@ -79,7 +79,7 @@ export const ResumeData = {
       ]
     }, {
       title: "My JAM",
-      startDate: "2022",
+      startDate: "2023",
       description: "React portfolio template that can be used by for e.g. other GitHub users. Porfolio includes separated sections(About, Projects, Skills, Experience). It also has multilingual support and light/dark theme setting.",
       images: [
         "images/myJam/image3.png",
@@ -99,14 +99,22 @@ export const ResumeData = {
           name: "JavaScript"
         },
         {
-          class: "devicon-sass-original",
-          name: "Sass"
+          class: "devicon-tailwindcss-plain",
+          name: "Tailwindcss"
+        },
+        {
+          class: "devicon-nodejs-plain",
+          name: "Node.js"
+        },
+        {
+          class: "devicon-mongodb-plain",
+          name: "MongoDB"
         }
       ]
     }, {
       title: "Less Is Green",
       startDate: "2022",
-      description: "React portfolio template that can be used by for e.g. other GitHub users. Porfolio includes separated sections(About, Projects, Skills, Experience). It also has multilingual support and light/dark theme setting.",
+      description: "LessIsGreener is a mobile app that offers users environmental, sustainability, and eco-friendly solutions to help keep our Earth greener. From eco-friendly product recommendations to tips on reducing carbon footprint, waste reduction, and more, LessIsGreener provides personalized suggestions and resources for adopting sustainable lifestyle choices. With its user-friendly interface and robust features, LessIsGreener empowers users to make positive changes in their daily lives and contribute to a more sustainable future for our planet.",
       images: [
         "images/green/image2.png",
         "images/green/image1.png",
@@ -125,34 +133,30 @@ export const ResumeData = {
           name: "JavaScript"
         },
         {
-          class: "devicon-sass-original",
-          name: "Sass"
+          class: "devicon-nodejs-plain",
+          name: "Node.js"
+        },
+        {
+          class: "devicon-mongodb-plain",
+          name: "MongoDB"
         }
       ]
     }, {
-      title: "React Portfolio",
-      startDate: "2020",
-      description: "React portfolio template that can be used by for e.g. other GitHub users. Porfolio includes separated sections(About, Projects, Skills, Experience). It also has multilingual support and light/dark theme setting.",
+      title: "What Time Is It?",
+      startDate: "2023",
+      description: "'What Time is It?' is an interactive 3D clock that automatically adjust the time based on their time zone. The visually captivating clock features a realistic three-dimensional design and is optimized for accessibility and responsiveness.",
       images: [
-        "images/portfolio/image1.png",
-        "images/portfolio/image2.png",
-        "images/portfolio/image3.png",
-        "images/portfolio/image4.png",
-        "images/portfolio/image5.png"
+        "images/clock/image.png",
       ],
-      url: "https://github.com/anbee123/One-page-portfolio",
+      url: "https://whattimeisitt.netlify.app/",
       technologies: [
         {
-          class: "devicon-react-original",
-          name: "React"
+          class: "devicon-css3-plain",
+          name: "CSS"
         },
         {
-          class: "devicon-javascript-plain",
-          name: "JavaScript"
-        },
-        {
-          class: "devicon-sass-original",
-          name: "Sass"
+          class: "devicon-html5-plain",
+          name: "HTML5"
         }
       ]
     }]
@@ -190,6 +194,10 @@ export const ResumeData = {
           name: "MySql",
           class: "devicon-mysql-plain",
           level: "80"
+        }, {
+          name: "Python",
+          class: "devicon-python-plain",
+          level: "80"
         }
       ]
     }
@@ -201,7 +209,7 @@ export const ResumeData = {
       {
         company: "General Assembly",
         title: "Fullstack Developer",
-        years: "Oct.2022 - Feb.2023",
+        years: "Aug.2022 - Mar.2023",
         mainTech: [
           "Fullstack Development"
         ],
@@ -219,23 +227,24 @@ export const ResumeData = {
         ]
       },
       {
-        company: "General Assembly",
-        title: "Fullstack Developer",
-        years: "10.2022 - ",
+        company: "Paris Nail",
+        title: "Manager",
+        years: "03.2020 - ",
         mainTech: [
           "Fullstack Development"
         ],
         technologies: [
-          "JavaScript",
-          "TypeScript",
-          "Node.js",
-          "React.js",
-          "Next.js",
-          "REST API",
-          "SCSS",
-          "JWT",
-          "Material-UI",
-          "Tailwindcss"
+          "Leadership",
+          "Comunnication",
+          "Customer Service",
+          "Professionalism",
+          "Problem Solving",
+          "Technical Knowledge",
+          "Staff Management",
+          "Business Acumen",
+          "Time Management",
+          "Adaptability"
+    
         ]
       },
     ]
