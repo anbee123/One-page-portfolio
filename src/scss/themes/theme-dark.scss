@@ -114,4 +114,27 @@ body[data-theme="dark"] {
   .close-icon {
     color: white;
   }
+
+  #skills {
+    background: #1F1F1F;
+    .skill-icon {
+      color: white;
+    }
+    .skills-tile {
+      background-color: transparentize(#F8F5F4, 0.95);
+    }
+  }
+  #footer {
+    background: #1F1F1F;
+    color: white;
+    a,
+    a:visited {
+      color: #fff;
+    }
+  
+    a:hover,
+    footer a:focus {
+      color: #fff;
+    }
+  }
 }

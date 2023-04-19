@@ -114,8 +114,7 @@ header {
 // Portfolio Section
 
 #portfolio {
-  // background: #f3a0e8;
-  background: #ede29f;
+  background-image: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
   padding-bottom: 5%;
 
   .portfolio-item {
@@ -214,7 +213,9 @@ header {
 // Skills Section
 
 #skills {
-  background: #1F1F1F;
+  // background: #1F1F1F;
+  background: #fff;
+  color: black;
   min-height: 200px;
   width: 100%;
   overflow: hidden;
@@ -222,13 +223,15 @@ header {
 
   .skill-icon {
     font-size: 130%;
-    color: white;
+    // color: white;
+    color: black;
     text-align: center;
     position: relative;
   }
 
   .skills-tile {
-    background-color: transparentize(#F8F5F4, 0.95);
+    // background-color: transparentize(#F8F5F4, 0.95);
+    background-color: transparentize(#020202, 0.95);
     padding: 10px 10px 5px 10px;
     width: 90px;
     margin: 5px 0 5px 0;
@@ -240,9 +243,8 @@ header {
 // Experience Section
 
 #experience {
-  // background: #f3a0e8;
-  // background: #ffaeae;
-  background: #e7b9cd;
+
+  background-image: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
 
   .experience-icon {
     font-size: 170%;
@@ -261,6 +263,7 @@ header {
     padding: 5px 8px 5px 8px !important;
     vertical-align: baseline;
     background-color: #ffbad7;
+    // background-image: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
     color: black;
     font-weight: lighter !important;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -279,23 +282,23 @@ header {
 // Footer Section
 
 #footer {
-  background: #1F1F1F;
+  background: #fff;
   min-height: 100px;
   width: 100%;
   overflow: hidden;
   font-size: 14px;
-  color: white;
+  color: black;
   position: relative;
   text-align: center;
 
   a,
   a:visited {
-    color: #fff;
+    color: #000;
   }
 
   a:hover,
   footer a:focus {
-    color: #fff;
+    color: #000;
   }
 
   .social-links {
