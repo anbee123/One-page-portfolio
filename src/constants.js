@@ -14,6 +14,34 @@ export const ResumeData = {
   projects: {
     sectionTitle: 'Projects',
     projects: [{
+      title: "My Portfolio",
+      startDate: "2023",
+      description: "Hello! This is my portfolio, please take a look :).",
+      images: [
+        "images/portfolio/image1.png",
+        "images/portfolio/image2.png",
+        "images/portfolio/image3.png",
+        "images/portfolio/image4.png",
+        "images/portfolio/image5.png",
+       
+      ],
+      liveUrl: "https://less-is-greener.netlify.app/",
+      gitUrl: "https://github.com/anbee123/One-page-portfolio.git",
+      technologies: [
+        {
+          class: "devicon-react-original",
+          name: "React"
+        },
+        {
+          class: "devicon-javascript-plain",
+          name: "JavaScript"
+        },
+        {
+          class: "devicon-sass-original",
+          name: "SASS"
+        },
+      ]
+    }, {
       title: "Crypto Tracker",
       startDate: "2022",
       description: "Crypto Tracker is a sleek and user-friendly web app that provides real-time tracking and analysis of popular cryptocurrencies. With live price data, historical charts, Crypto Tracker is a reliable tool for crypto enthusiasts to monitor and manage their investments effectively.",
@@ -82,7 +110,7 @@ export const ResumeData = {
     }, {
       title: "My JAM",
       startDate: "2023",
-      description: "React portfolio template that can be used by for e.g. other GitHub users. Porfolio includes separated sections(About, Projects, Skills, Experience). It also has multilingual support and light/dark theme setting.",
+      description: "Introducing My JAM, a full-stack music application that offers an extensive collection of tracks, sounds, and mixes with over 3 million options for users to choose from. Developed with React for front-end and Express for back-end, My JAM also utilizes third-party APIs to provide users with a seamless and engaging listening experience. The app features robust user authentication and data protection through the implementation of JSON Web Tokens (JWT), ensuring that sensitive user data is always kept secure. Thanks to its top-notch security and vast selection of music, My JAM has increased customer satisfaction by an impressive 98%.",
       images: [
         "images/myJam/image3.png",
         "images/myJam/image1.png",
@@ -222,6 +250,8 @@ export const ResumeData = {
           "JavaScript",
           "TypeScript",
           "Node.js",
+          "Python",
+          "Django",
           "React.js",
           "Next.js",
           "REST API",
@@ -262,11 +292,6 @@ export const ResumeData = {
         name: "github",
         url: "https://github.com/anbee123",
         icon: "fab fa-github"
-      },
-      {
-        name: "instagram",
-        url: "https://www.instagram.com/",
-        icon: "fab fa-instagram"
       },
       {
         name: "linkedin",

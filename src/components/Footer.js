@@ -18,6 +18,8 @@ const Footer = ({ data }) => {
         <div className="copyright py-4 text-center">
           <div className="container">
             <small>
+              Ann.bui0012@gmail.com </small> <br /> 
+              <small>
               Copyright &copy;{' '}
               {auth
                 ? auth
