@@ -8,7 +8,7 @@ export const ResumeData = {
   about: {
     sectionTitle: 'About me',
     description_header: 'Hi',
-    description_content: 'I am a passionate full-stack software engineer with expertise in front-end and back-end technologies. I thrive on creating innovative solutions to complex problems, crafting clean and efficient code. With proficiency in multiple programming languages, frameworks, and databases, I develop scalable applications that deliver exceptional user experiences. Stay updated with the latest advancements in technology, I am constantly improving my coding skills. Coding is not just my profession, but my true passion that drives me to create elegant solutions with a positive impact. Bottom line, I LOVE CODING AS MUCH AS I LOVE CHOCOLATE :)',
+    description_content: 'My name is An. I am a passionate full-stack software engineer with expertise in front-end and back-end technologies. I thrive on creating innovative solutions to complex problems, crafting clean and efficient code. With proficiency in multiple programming languages, frameworks, and databases, I develop scalable applications that deliver exceptional user experiences. Stay updated with the latest advancements in technology, I am constantly improving my coding skills. Coding is not just my profession, but my true passion that drives me to create elegant solutions with a positive impact. Bottom line, I LOVE CODING AS MUCH AS I LOVE CHOCOLATE :)',
   },
 
   projects: {
@@ -16,7 +16,7 @@ export const ResumeData = {
     projects: [{
       title: "My Portfolio",
       startDate: "2023",
-      description: "Hello! This is my portfolio, please take a look :).",
+      description: "Hello! This is my portfolio, please take a look of it. Thank You :).",
       images: [
         "images/portfolio/image1.png",
         "images/portfolio/image2.png",
@@ -241,7 +241,7 @@ export const ResumeData = {
     experiences: [
       {
         company: "General Assembly",
-        title: "Fullstack Developer",
+        title: "Software Engineer Immersive Flex Apprentice",
         years: "Aug.2022 - Mar.2023",
         mainTech: [
           "Fullstack Development"
@@ -262,7 +262,7 @@ export const ResumeData = {
         ]
       },
       {
-        company: "Paris Nail",
+        company: "Paris Nails",
         title: "Manager",
         years: "03.2020 - ",
         mainTech: [
