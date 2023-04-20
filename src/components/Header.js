@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
 import Switch from 'react-switch';
-import Typical from 'react-typical';
+import { Typewriter } from 'react-simple-typewriter'
 
 const Header = ({ data }) => {
   const [checked, setChecked] = useState(false)
-  const titles = data.titles.map(t => [1500, t.toUpperCase()]).flat()
   const onThemeSwitchChange = (val) => {
     setChecked(val)
     setTheme()
@@ -16,7 +15,15 @@ const Header = ({ data }) => {
     body.setAttribute(dataThemeAtrribute, newTheme)
   }
   const HeaderTitleTypeAnimation = React.memo(() => {
-    return <Typical className="title-styles" steps={titles} loop={50} />
+    return <Typewriter
+      words={data.titles}
+      loop={0}
+      cursor
+      cursorStyle='_'
+      typeSpeed={100}
+      deleteSpeed={50}
+      delaySpeed={2000}
+    />
   }, (props, prevProp) => true);
 
   return (
@@ -30,9 +37,17 @@ const Header = ({ data }) => {
           ></span>
           <br />
           <h1 className='mb-0'>
-            <Typical steps={[data.name]} wrapper='p' />
+            <Typewriter
+              words={[data.name]}
+              loop={1}
+              cursor
+              cursorStyle='_'
+              typeSpeed={100}
+              deleteSpeed={50}
+              delaySpeed={2000}
+            />
           </h1>
-          <div className='title-container'>
+          <div className='title-container title-styles'>
             <HeaderTitleTypeAnimation />
           </div>
 
@@ -42,7 +57,7 @@ const Header = ({ data }) => {
             checked={checked}
             onChange={onThemeSwitchChange}
             offColor='#353535'
-            onColor='#ff69b4'
+            onColor='#ff56da'
             width={90}
             height={40}
             uncheckedIcon={
