@@ -216,6 +216,18 @@ export const ResumeData = {
           class: "devicon-javascript-plain",
           level: "90"
         }, {
+          name: "Python",
+          class: "devicon-python-plain",
+          level: "80"
+        },  {
+          name: "Django",
+          class: "devicon-django-plain",
+          level: "80"
+        }, {
+          name: "Node",
+          class: "devicon-nodejs-plain",
+          level: "90"
+        }, {
           name: "React",
           class: "devicon-react-original",
           level: "90"
@@ -231,9 +243,9 @@ export const ResumeData = {
           name: "MySql",
           class: "devicon-mysql-plain",
           level: "80"
-        }, {
-          name: "Python",
-          class: "devicon-python-plain",
+        },  {
+          name: "Postgresql",
+          class: "devicon-postgresql-plain",
           level: "80"
         }
       ]
@@ -244,7 +256,7 @@ export const ResumeData = {
     sectionTitle: 'Experiences',
     experiences: [
       {
-        company: "General Assembly",
+        company: "-General Assembly-",
         title: "Software Engineer Immersive Flex Apprentice",
         years: "Aug.2022 - Mar.2023",
         mainTech: [
@@ -266,11 +278,11 @@ export const ResumeData = {
         ]
       },
       {
-        company: "Paris Nails",
-        title: "Manager",
+        company: "-Paris Nails-",
+        title: "Manager/ Technical Support Specialist",
         years: "03.2020 - ",
         mainTech: [
-          "Fullstack Development"
+          "Personal Care Services"
         ],
         technologies: [
           "Leadership",
