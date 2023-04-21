@@ -216,6 +216,10 @@ export const ResumeData = {
           class: "devicon-javascript-plain",
           level: "90"
         }, {
+          name: "React",
+          class: "devicon-react-original",
+          level: "90"
+        },{
           name: "Sass",
           class: "devicon-sass-original",
           level: "90"
