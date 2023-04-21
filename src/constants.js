@@ -25,7 +25,7 @@ export const ResumeData = {
         "images/portfolio/image5.png",
        
       ],
-      liveUrl: "https://less-is-greener.netlify.app/",
+      liveUrl: "https://welcometomyportfolioo.netlify.app/",
       gitUrl: "https://github.com/anbee123/One-page-portfolio.git",
       technologies: [
         {
