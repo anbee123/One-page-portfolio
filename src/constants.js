@@ -311,7 +311,7 @@ export const ResumeData = {
       },
       {
         name: "linkedin",
-        url: "https://www.linkedin.com/",
+        url: "https://www.linkedin.com/in/anbui1812/",
         icon: "fab fa-linkedin"
       }
     ],
